@@ -121,12 +121,12 @@ PHP 5.7.0 and later.
         ```
 
         
-    #### Getting start
+    #### Getting started
 
     ```php
         $request = new Request();
         $request->posSignature  = 'XXXX-XXXX-XXXX-XXXX-XXXX';                                 // Your signiture ID hear
-        $request->apiKey        = 'ApiKey_GENERATE-YOUR-KEY-FROM-MobilPay-AND-USE-IT-HEAR';   // Your API key hear
+        $request->apiKey        = 'ApiKey_GENERATE-YOUR-KEY-FROM-Dashboard-AND-USE-IT-HERE';   // Your API key here
         $request->isLive        = false;                                                      // false for SANDBOX & true for LIVE
         $request->notifyUrl     = 'http://your-domain.com/ipn.php';                           // Path of your IPN
         $request->redirectUrl   = null;
